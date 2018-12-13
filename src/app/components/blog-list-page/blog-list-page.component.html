@@ -1,0 +1,11 @@
+<div class="container">
+  <ng-container *ngFor="let post of list">
+    <app-blog-item
+      [content]="post.content"
+      [title]="post.title"
+      [url]="post.url"
+      [id]="post.id"
+    >
+    </app-blog-item>
+  </ng-container>
+</div>
